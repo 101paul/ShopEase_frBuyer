@@ -1,5 +1,5 @@
 # 🚀 Full-Stack Android eCommerce Solution – Buyer & Seller Apps
-(This is the Buyer version of the app)                                        Seller Version of app ->🔗 https://github.com/101paul/ShopEase_frSeller
+(This is the Buyer version of the app)                                          *Seller Version of the app ->🔗 https://github.com/101paul/ShopEase_frSeller
 
 An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seamless, real-time, and secure experience for both **buyers** and **sellers**.
 
