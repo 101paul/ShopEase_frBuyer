@@ -1,0 +1,162 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.catFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appbarshape"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@drawable/appbarshape"
+            app:titleEnabled="false">
+            <Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:layout_collapseMode="parallax" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                app:layout_collapseMode="pin">
+
+                <TextView
+                    android:id="@+id/categoryname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh Vegetables"
+                    android:textSize="26sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    app:layout_collapseMode="parallax"/>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/searchforproduct2"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:elevation="4dp"
+                    app:cardCornerRadius="10dp"
+                    app:strokeWidth="1dp"
+                    app:strokeColor="@color/black"
+                    android:backgroundTint="@color/white"
+                    app:layout_collapseMode="pin">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="8dp">
+
+                        <ImageView
+                            android:id="@+id/backtohome"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginEnd="0dp"
+                            android:src="@drawable/back_arrow"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/textInputLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:hint="Search for products..."
+                            app:endIconMode="clear_text"
+                            app:boxBackgroundMode="none"
+                            app:layout_constraintStart_toEndOf="@id/backtohome"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/searchbox"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"
+                                android:layout_gravity="center"
+                                android:inputType="text"
+                                android:background="@null"
+                                android:padding="8dp"
+                                android:maxLines="1"
+                                android:layout_marginBottom="10dp"
+                                android:singleLine="true"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    app:layout_collapseMode = "pin"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCartProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:spanCount="2"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/productEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Product Added to this Category"
+        android:textColor="@color/purple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="40dp" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/emptyCartLottie"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_fileName="search.json" />
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shrimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/product_shimmer"/>
+            <include layout="@layout/product_shimmer"/>
+            <include layout="@layout/product_shimmer"/>
+            <include layout="@layout/product_shimmer"/>
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

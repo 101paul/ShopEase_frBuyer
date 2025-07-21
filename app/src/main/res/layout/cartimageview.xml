@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        app:cardCornerRadius="50dp"
+        android:elevation="10dp"
+        android:padding="4dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/cartImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:background="@drawable/shape"
+            android:src="@drawable/cartimage"
+            android:layout_gravity="center"
+            android:clipToOutline="true"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+

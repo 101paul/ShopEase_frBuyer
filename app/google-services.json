@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "865034546070",
+    "firebase_url": "https://ecommercedata-1e266-default-rtdb.firebaseio.com",
+    "project_id": "ecommercedata-1e266",
+    "storage_bucket": "ecommercedata-1e266.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865034546070:android:bb5f847852a558328d4bb7",
+        "android_client_info": {
+          "package_name": "com.example.adminshopeease.activity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCOY31ecoVh64XYSZUklixDYS38mtGrGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865034546070:android:12eded35b59cee2a8d4bb7",
+        "android_client_info": {
+          "package_name": "com.example.shopease.activity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCOY31ecoVh64XYSZUklixDYS38mtGrGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
