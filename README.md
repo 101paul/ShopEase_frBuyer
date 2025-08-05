@@ -85,7 +85,7 @@ This project includes **two fully functional Android applications**, built from 
 
 ---
 
-## ⚡ Real-Time Buyer-Seller Sync
+## ⚡Real-Time Buyer-Seller Sync
 
 - Live updates on:
   - New orders  
