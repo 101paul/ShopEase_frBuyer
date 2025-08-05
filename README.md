@@ -28,7 +28,12 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 - **SharedPreferences** – Lightweight local state management
 - **Firebase Realtime Database** – Instant syncing of orders, stock, and product data
 - **Firebase Cloud Storage** – Fast and scalable image uploads & retrieval
-
+<p align="center">
+  <img src="images/shopEase6.png" alt="Image 1" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/shopEase7.png" alt="Image 2" width="200"/>
+    &nbsp;&nbsp;&nbsp;
+</p>
 ---
 
 ## 🔐 Authentication & Security
@@ -41,7 +46,13 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 ---
 
 ## 💳 Payment Gateway Integration
-
+<p align="center">
+  <img src="images/shopEase8.png" alt="Image 1" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/shopEase9.png" alt="Image 2" width="200"/>
+    &nbsp;&nbsp;&nbsp;
+  <img src="images/shopEase10.png" alt="Image 2" width="200"/>
+</p>
 - **Razorpay Payment Gateway**
   - Smooth and secure payment flow
   - Handles multiple payment methods (UPI, cards, wallets)
@@ -51,11 +62,21 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   - Validates and verifies payment transactions
   - Protects sensitive user credentials
   - Ensures full-stack transaction integrity
-
+<p align="center">
+  <img src="images/shopEase11.png" alt="Image 1" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/shopEase12.png" alt="Image 2" width="200"/>
+</p>
 ---
 
 ## ⚡ Real-Time Buyer-Seller Sync
-
+<p align="center">
+  <img src="images/ShopEaseHomeP.png" alt="Image 1" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/shopEase13.png" alt="Image 2" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/shopEase14.png" alt="Image 2" width="200"/>
+</p>
 - Live updates on:
   - New orders
   - Stock changes
