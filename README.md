@@ -4,8 +4,9 @@
 An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seamless, real-time, and secure experience for both **buyers** and **sellers**.
 
 ## 📱 Two Apps – One Powerful Ecosystem
-<img src="images/logo.png" alt="ShopEase Banner" width="400"/>
-This project includes **two fully functional Android applications**, built from the ground up:
+<p align="center">
+  <img src="images/logo.png" alt="Logo" width="200"/>
+</p>This project includes **two fully functional Android applications**, built from the ground up:
 
 - 🛒 **Buyer App** – For browsing products, managing cart, placing orders, making secure payments, and tracking delivery.
 - 🛍️ **Seller App** – For uploading products, managing stock, and processing incoming orders.
