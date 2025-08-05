@@ -74,8 +74,6 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   <img src="images/ShopEaseHomeP.png" alt="Image 1" width="200"/>
   &nbsp;&nbsp;&nbsp;
   <img src="images/shopEase13.png" alt="Image 2" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase14.png" alt="Image 2" width="200"/>
 </p>
 - Live updates on:
   - New orders
@@ -86,7 +84,9 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 ---
 
 ## 🧠 Smart Cart & Order Management
-
+<p align="center">
+   <img src="images/shopEase14.png" alt="Image 2" width="200"/>
+</p>
 - Real-time cart updates using Room + Firebase
 - Auto-clears cart when quantity hits zero
 - Post-order stock deductions reflected immediately in the seller app
