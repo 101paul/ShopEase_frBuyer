@@ -11,7 +11,6 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 - 🛒 **Buyer App** – For browsing products, managing cart, placing orders, making secure payments, and tracking delivery.
 - 🛍️ **Seller App** – For uploading products, managing stock, and processing incoming orders.
 
----
 
 ## 🛠️ Tech Stack & Architecture
 <p align="center">
