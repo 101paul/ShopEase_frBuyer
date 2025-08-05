@@ -15,11 +15,11 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 
 ## 🛠️ Tech Stack & Architecture
 <p align="center">
-  <img src="images/ShopEase2.png" alt="Image 1" width="200"/>
+  <img src="images/ShopEaseHomeP.png" alt="Image 1" width="200"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="images/ShopEase3.png" alt="Image 2" width="200"/>
+  <img src="images/shopEase3.png" alt="Image 2" width="200"/>
     &nbsp;&nbsp;&nbsp;
-  <img src="images/ShopEase5.png" alt="Image 2" width="200"/>
+  <img src="images/shopEase5.png" alt="Image 2" width="200"/>
 </p>
 
 - **Kotlin + XML** – Modern, fast, and intuitive native UI development
