@@ -11,7 +11,12 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 - 🛒 **Buyer App** – For browsing products, managing cart, placing orders, making secure payments, and tracking delivery.
 - 🛍️ **Seller App** – For uploading products, managing stock, and processing incoming orders.
 
+<div align="center">
+  <img src="images/ShopEaseHomeP.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/shopEase3.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/shopEase5.png" width="200" style="display: inline-block; margin: 10px;"/>
 
+</div>
 ## 🛠️ Tech Stack & Architecture
 <p align="center">
   <img src="images/ShopEaseHomeP.png" alt="Image 1" width="200"/>
