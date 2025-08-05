@@ -37,12 +37,20 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 ---
 
 ## 🔐 Authentication & Security
-
+<p align="center">
+  <img src="images/security1.png" alt="Image 1" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/security2.png" alt="Image 2" width="200"/>
+</p>
 - **OTP Login via Firebase Authentication**
   - Secure, passwordless access
   - Fast mobile number verification
   - Seamless onboarding for both buyers and sellers
-
+<p align="center">
+  <img src="images/sendingOtp.png" alt="Image 1" width="200"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/otpVerification.png" alt="Image 2" width="200"/>
+</p>
 ---
 
 ## 💳 Payment Gateway Integration
