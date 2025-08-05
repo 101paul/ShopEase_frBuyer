@@ -108,13 +108,13 @@ This project includes **two fully functional Android applications**, built from 
 - Post-order stock deductions reflected immediately in the seller app  
 
 ---
-## ✅ Search box 
+## 🔍 Search box 
 <div align="center">
   <img src="images/searchFragment.png" width="200" style="display: inline-block; margin:10px;"/>
 </div>
 
 ---
-## ✅ Address 
+## 📍Address 
 <div align="center">
   <img src="images/addressShopEase.png" width="200" style="display: inline-block; margin:10px;"/>
 </div>
