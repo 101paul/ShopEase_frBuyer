@@ -11,20 +11,14 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 - 🛒 **Buyer App** – For browsing products, managing cart, placing orders, making secure payments, and tracking delivery.
 - 🛍️ **Seller App** – For uploading products, managing stock, and processing incoming orders.
 
+
+
+## 🛠️ Tech Stack & Architecture
 <div align="center">
-  <img src="images/ShopEaseHomeP.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/ShopEaseHomeP.png" width="200" style="display: inline-block; margin:10px;"/>
   <img src="images/shopEase3.png" width="200" style="display: inline-block; margin: 10px;"/>
   <img src="images/shopEase5.png" width="200" style="display: inline-block; margin: 10px;"/>
-
 </div>
-## 🛠️ Tech Stack & Architecture
-<p align="center">
-  <img src="images/ShopEaseHomeP.png" alt="Image 1" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase3.png" alt="Image 2" width="200"/>
-    &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase5.png" alt="Image 2" width="200"/>
-</p>
 
 - **Kotlin + XML** – Modern, fast, and intuitive native UI development
 - **MVVM Architecture** – Clean code separation and lifecycle-aware components
@@ -32,29 +26,25 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 - **SharedPreferences** – Lightweight local state management
 - **Firebase Realtime Database** – Instant syncing of orders, stock, and product data
 - **Firebase Cloud Storage** – Fast and scalable image uploads & retrieval
-<p align="center">
-  <img src="images/shopEase6.png" alt="Image 1" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase7.png" alt="Image 2" width="200"/>
-    &nbsp;&nbsp;&nbsp;
-</p>
+- <div align="center">
+  <img src="images/shopEase6.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/shopEase7.png" width="200" style="display: inline-block; margin: 10px;"/>
+</div>
 
 ## 🔐 Authentication & Security
-<p align="center">
-  <img src="images/security1.png" alt="Image 1" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/security2.png" alt="Image 2" width="200"/>
-</p>
+- <div align="center">
+  <img src="images/security1.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/security2.png" width="200" style="display: inline-block; margin: 10px;"/>
+</div>
 - **OTP Login via Firebase Authentication**
   - Secure, passwordless access
   - Fast mobile number verification
   - Seamless onboarding for both buyers and sellers
   <br><br>
-<p align="center">
-  <img src="images/sendingOtp.png" alt="Image 1" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/otpVerification.png" alt="Image 2" width="200"/>
-</p>
+  - <div align="center">
+  <img src="images/sendingOtp.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/otpVerification.png" width="200" style="display: inlineblock;margin:10px;"/>
+</div>
 
 ## 💳 Payment Gateway Integration
 <p align="center">
