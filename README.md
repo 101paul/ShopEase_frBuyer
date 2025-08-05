@@ -46,6 +46,7 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   - Secure, passwordless access
   - Fast mobile number verification
   - Seamless onboarding for both buyers and sellers
+  <br><br>
 <p align="center">
   <img src="images/sendingOtp.png" alt="Image 1" width="200"/>
   &nbsp;&nbsp;&nbsp;
