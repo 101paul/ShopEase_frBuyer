@@ -7,7 +7,7 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 <p align="center">
   <img src="images/logo.png" alt="Logo" width="200"/>
 </p>This project includes **two fully functional Android applications**, built from the ground up:
-
+  <br><br>
 - 🛒 **Buyer App** – For browsing products, managing cart, placing orders, making secure payments, and tracking delivery.
 - 🛍️ **Seller App** – For uploading products, managing stock, and processing incoming orders.
 
@@ -19,13 +19,14 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   <img src="images/shopEase3.png" width="200" style="display: inline-block; margin: 10px;"/>
   <img src="images/shopEase5.png" width="200" style="display: inline-block; margin: 10px;"/>
 </div>
-
+  <br><br>
 - **Kotlin + XML** – Modern, fast, and intuitive native UI development
 - **MVVM Architecture** – Clean code separation and lifecycle-aware components
 - **Room Database** – Efficient offline access and persistent cart state
 - **SharedPreferences** – Lightweight local state management
 - **Firebase Realtime Database** – Instant syncing of orders, stock, and product data
 - **Firebase Cloud Storage** – Fast and scalable image uploads & retrieval
+-   <br><br>
 - <div align="center">
   <img src="images/shopEase6.png" width="200" style="display: inline-block; margin: 10px;"/>
   <img src="images/shopEase7.png" width="200" style="display: inline-block; margin: 10px;"/>
@@ -36,6 +37,7 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   <img src="images/security1.png" width="200" style="display: inline-block; margin: 10px;"/>
   <img src="images/security2.png" width="200" style="display: inline-block; margin: 10px;"/>
 </div>
+-   <br><br>
 - **OTP Login via Firebase Authentication**
   - Secure, passwordless access
   - Fast mobile number verification
@@ -47,13 +49,11 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 </div>
 
 ## 💳 Payment Gateway Integration
-<p align="center">
-  <img src="images/shopEase8.png" alt="Image 1" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase9.png" alt="Image 2" width="200"/>
-    &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase10.png" alt="Image 2" width="200"/>
-</p>
+<div align="center">
+  <img src="images/shopEase8.png" width="200" style="display: inline-block; margin:10px;"/>
+  <img src="images/shopEase9.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/shopEase10.png" width="200" style="display: inline-block; margin: 10px;"/>
+</div>
 - **Razorpay Payment Gateway**
   - Smooth and secure payment flow
   - Handles multiple payment methods (UPI, cards, wallets)
@@ -63,12 +63,10 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   - Validates and verifies payment transactions
   - Protects sensitive user credentials
   - Ensures full-stack transaction integrity
-<p align="center">
-  <img src="images/shopEase11.png" alt="Image 1" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase12.png" alt="Image 2" width="200"/>
-</p>
-
+  - <div align="center">
+  <img src="images/shopEase11.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/shopEase12.png" width="200" style="display: inlineblock;margin:10px;"/>
+</div>
 ## ⚡ Real-Time Buyer-Seller Sync
 - Live updates on:
   - New orders
@@ -79,13 +77,12 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 
 
 ## 🧠 Smart Cart & Order Management
-<p align="center">
-  <img src="images/ShopEaseHomeP.png" alt="Image 1" width="200"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase13.png" alt="Image 2" width="200"/>
-    &nbsp;&nbsp;&nbsp;
-  <img src="images/shopEase14.png" alt="Image 2" width="200"/>
-</p>
+<div align="center">
+  <img src="images/ShopEaseHomeP.png" width="200" style="display: inline-block; margin: 10px;"/>
+  <img src="images/shopEase13.png" width="200" style="display: inlineblock;margin:10px;"/>
+  <img src="images/shopEase14.png" width="200" style="display: inlineblock;margin:10px;"/>
+</div>
+<br><br>
 - Real-time cart updates using Room + Firebase
 - Auto-clears cart when quantity hits zero
 - Post-order stock deductions reflected immediately in the seller app
