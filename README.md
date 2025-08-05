@@ -33,7 +33,6 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   <img src="images/shopEase7.png" alt="Image 2" width="200"/>
     &nbsp;&nbsp;&nbsp;
 </p>
----
 
 ## 🔐 Authentication & Security
 <p align="center">
@@ -51,7 +50,6 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   &nbsp;&nbsp;&nbsp;
   <img src="images/otpVerification.png" alt="Image 2" width="200"/>
 </p>
----
 
 ## 💳 Payment Gateway Integration
 <p align="center">
@@ -75,7 +73,6 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   &nbsp;&nbsp;&nbsp;
   <img src="images/shopEase12.png" alt="Image 2" width="200"/>
 </p>
----
 
 ## ⚡ Real-Time Buyer-Seller Sync
 - Live updates on:
@@ -84,7 +81,7 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
   - Product additions or edits
 - Instant notification to buyers when orders are packed, shipped, or delivered
 
----
+
 
 ## 🧠 Smart Cart & Order Management
 <p align="center">
@@ -98,7 +95,7 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 - Auto-clears cart when quantity hits zero
 - Post-order stock deductions reflected immediately in the seller app
 
----
+
 
 ## ✅ Why This App Stands Out
 
@@ -109,7 +106,7 @@ An end-to-end **native Android eCommerce ecosystem**, designed to deliver a seam
 - Offline support for smoother experience
 - Ideal for launching a **mobile-first eCommerce solution**
 
----
+
 
 ## 📦 Features At A Glance
 | Feature                            | Buyer App ✅| Seller App ✅ 
